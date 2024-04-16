@@ -1,9 +1,9 @@
-server {
+#server {
         client_max_body_size 64M;
-        server_name admin.docvalide.com.blocked www.admin.docvalide.com.blocked;
+#       server_name admin.docvalide.com www.admin.docvalide.com;
 
-        location / {
-                proxy_pass             http://127.0.0.1:3001;
+#        location / {
+#                proxy_pass             http://127.0.0.1:3001;
                 proxy_read_timeout     60;
                 proxy_connect_timeout  60;
                 proxy_redirect         off;
