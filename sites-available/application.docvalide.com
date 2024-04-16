@@ -1,5 +1,5 @@
 server {
-     server_name application.docvalide.com www.application.docvalide.com;
+     server_name application.docvalide.com.blocked www.application.docvalide.com.blocked;
 
      root /var/www/app.docvalide.com/public_html;
 

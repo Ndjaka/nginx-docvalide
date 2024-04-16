@@ -1,6 +1,6 @@
 server {
         client_max_body_size 64M;
-        server_name admin.docvalide.com www.admin.docvalide.com;
+        server_name admin.docvalide.com.blocked www.admin.docvalide.com.blocked;
 
         location / {
                 proxy_pass             http://127.0.0.1:3001;
