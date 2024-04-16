@@ -1,6 +1,6 @@
-#server {
+server {
         client_max_body_size 64M;
-#        server_name docvalide.com www.docvalide.com;
+        server_name docvalide.com www.docvalide.com;
 
         location / {
                 proxy_pass             http://127.0.0.1:3000;
